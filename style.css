@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the height of the viewport */
+    background-image: url('pics/nature.jpeg'); 
+    background-color: rgba(163,173,188,255);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+#title {
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {  
+    flex: 1; /* Allow main content to grow to fill remaining space */
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Keep your existing CSS code here */
+
+/* Add this to style the navigation links as buttons */
+.nav-links {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-links a { /* stil za linke od pod-strani */ 
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Add this to style the bullet points */
+.bullet-points {
+    list-style-type: none;
+}
+
+.bullet-points li {
+    margin-bottom: 10px;
+}
+
+/* Add this to center the content in the second half of the page */
+.half-width {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 25%;
+    text-align: center;
+    background-color: rgba(228, 207, 207, 0.6);
+}
+
+.text{
+    font-weight: bolder;
+}
